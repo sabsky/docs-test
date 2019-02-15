@@ -22,7 +22,7 @@ default_lang: "en"
 # analytics - see https://github.com/hendrikschneider/jekyll-analytics
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-2114792-9        # Required - replace with your tracking id
+    id: UA-54516992-1        # Required - replace with your tracking id
 
 # html head metadata: social open graph and favicon
 additional_head_html: |
