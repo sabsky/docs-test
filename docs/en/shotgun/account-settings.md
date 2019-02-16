@@ -9,11 +9,11 @@ lang: en
 
 The "Account Settings" link is in the top right corner of every page, under your profile picture.
 
-<center>![Account Settings](https://sabsky.github.io/docs-test/docs/images/settings_01.png)</center>
+<center>![Account Settings](https://sabsky.github.io/docs-test/images/settings_01.png)</center>
 
 Selecting it takes you to a page where you can manage your Account, Email Notifications, and My Following Settings.
 
-<center>![Account Settings options](https://sabsky.github.io/docs-test/docs/images/settings_02.png)</center>
+<center>![Account Settings options](https://sabsky.github.io/docs-test/images/settings_02.png)</center>
 
 ## Change your profile picture
 
