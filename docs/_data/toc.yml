@@ -7,8 +7,7 @@
 - caption: shotgun
   children:
   - page: /shotgun/
-  - text: account-settings
-    url: /shotgun/account-settings/
+  - page: account-settings
   - text: rest-api
     url: https://developer.shotgunsoftware.com/rest-api/
   - text: event-triggers
