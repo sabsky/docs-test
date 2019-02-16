@@ -7,6 +7,7 @@
 - caption: shotgun
   children:
   - page: /shotgun/
+  - page: /shotgun/getting-started/
     children:
     - page: /shotgun/account-settings/
   - page: /shotgun/scheduling-tasks/
