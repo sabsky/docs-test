@@ -46,75 +46,38 @@ You receive updates in your Inbox based on two things: what you’re following a
 In order to see updates in your Inbox, you need to first follow the thing you’re interested in. To follow an update, click on the “Follow” button, located on the top right of any entity detail page. Once you’re following something, you’ll receive a notification in your Inbox whenever there is an update, such as a new Note, Version, or Publish.
 
 ### Options for following
-<ul>
-  <li>
-    If you’re looking for something specific to follow, you can search for it
-    with the global search and click the "Follow" button from the list of results.<br>
-    <img src="/hc/article_attachments/115000110974/01_follow_from_search.png" alt="Follow from search" width="35%">
-  </li>
-  <li>
-    You can also follow an entity from a Detail, Thumbnail, or List view by right-clicking
-    the entity and selecting “Follow Selected.”
-  </li>
-  <li>
-    Last, if you are assigned to a Task, you are automatically following that
-    Task.
-  </li>
-</ul>
-<h3>
-  <a name="interesting"></a>Enable following on creation events and updates
-</h3>
-<p>
-  Admins can define which entity events, such as a new Version or a Publish, are
-  followable on a site. You define which entities are followable by heading to
-  the Site Preferences &gt; Entities page and then selecting which creation events
-  you’d like enabled on each entity.
-</p>
-<p>
-  Once an entity is set up to create events, Admins can further refine what users
-  can follow via the Global Follow Settings page under the Admin drop-down menu
-  in the upper right.
-</p>
-<p>
-  Similar to the Follow Settings a user can access via their Inbox, the
-  <a name="global_follow"></a>Global Follow Settings page sets what those users
-  see on their own Follow Settings page:
-</p>
-<p class="wysiwyg-text-align-center">
-  <img src="/hc/article_attachments/115000109633/02_global_follow_settings.png" alt="Global follow settings">
-</p>
-<h3>Updating email notifications</h3>
-<p>
-  You can receive an
-  <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219030558#email_layouts_and_user_defaults">email notification</a>
-  at the same time you receive an update in your Inbox. Access these settings via
-  the “Email Notification Settings” from your
-  <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219030578-Account-settings">Account Settings page</a>.
-</p>
-<blockquote class="note">
-  <strong>Note:</strong> You can subscribe to Notes and Updates in your Inbox,
-  but the rest of the options are
-  <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219030578#email">legacy</a>.
-</blockquote>
-<h2>Using the Inbox for review</h2>
-<p>
-  Screening Room is directly integrated into the Inbox. First, to receive updates
-  about when a new Version is ready for review, follow the person who’s creating
-  the Versions you want to know about. You can follow people from the People page
-  by right-clicking and then selecting “Follow Selected.”
-</p>
-<p>
-  Now, whenever that person creates a new Version, you’ll receive an update in
-  your Inbox that displays a playable thumbnail you can launch in the
-  <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219030368-Overlay-Player">Overlay Player</a>.
-  From the Overlay Player, use the note and annotation tools to comment on the
-  work.
-</p>
-<p class="wysiwyg-text-align-center">
-  <img src="/hc/article_attachments/115000110994/04_overlay_player.png" alt="Overlay player">
-</p>
-<p>
-  When you’re done commenting, hit the escape key or click outside of the Overlay
-  Player to return to the Inbox. Press the refresh button to remove the now viewed
-  Version notification from your Inbox.
-</p>
+
+* If you’re looking for something specific to follow, you can search for it with the global search and click the "Follow" button from the list of results.
+![Follow from search](../images/01_follow_from_search.png)
+* You can also follow an entity from a Detail, Thumbnail, or List view by right-clicking the entity and selecting “Follow Selected.”
+* Last, if you are assigned to a Task, you are automatically following that Task.
+
+### Enable following on creation events and updates
+
+Admins can define which entity events, such as a new Version or a Publish, are followable on a site. You define which entities are followable by heading to the Site Preferences &gt; Entities page and then selecting which creation events you’d like enabled on each entity.
+
+Once an entity is set up to create events, Admins can further refine what users can follow via the Global Follow Settings page under the Admin drop-down menu in the upper right.
+
+Similar to the Follow Settings a user can access via their Inbox, the Global Follow Settings page sets what those users see on their own Follow Settings page:
+
+<center>
+![Global follow settings](../images/02_global_follow_settings.png)
+</center>
+
+### Updating email notifications
+
+You can receive an email notification at the same time you receive an update in your Inbox. Access these settings via the “Email Notification Settings” from your Account Settings page.
+
+>**Note:** You can subscribe to Notes and Updates in your Inbox, but the rest of the options are legacy.
+
+## Using the Inbox for review
+
+Screening Room is directly integrated into the Inbox. First, to receive updates about when a new Version is ready for review, follow the person who’s creating the Versions you want to know about. You can follow people from the People page by right-clicking and then selecting “Follow Selected.”
+
+Now, whenever that person creates a new Version, you’ll receive an update in your Inbox that displays a playable thumbnail you can launch in the Overlay Player. From the Overlay Player, use the note and annotation tools to comment on the work.
+
+<center>
+![Overlay player](../images/04_overlay_player.png)
+</center>
+
+When you’re done commenting, hit the escape key or click outside of the Overlay Player to return to the Inbox. Press the refresh button to remove the now viewed Version notification from your Inbox.

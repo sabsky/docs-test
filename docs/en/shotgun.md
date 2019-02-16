@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting started
+title: Shotgun
 permalink: /shotgun/
 lang: en
 ---
