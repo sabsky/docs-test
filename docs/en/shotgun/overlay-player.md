@@ -60,7 +60,7 @@ The Settings menu gives you control over default loading preferences, caching op
 
 ## Detail pane
 
-When you play a Version, you will see information about that Version appear in the Detail pane to the right of the player window. The top portion tells you everything you need to know about your media. You can customize what information appears here to fit your reviewing needs. Click on ![Notes panel](../../images/notes_panel.png) for the Notes panel, where you can add feedback on the Version that Shotgun will send back to the artist who submitted it. Click on ![Related Versions panel](../../images/related_versions.png) for the Related Versions panel, which allows you to load and compare previous Versions submitted for the same Shot or Asset.
+When you play a Version, you will see information about that Version appear in the Detail pane to the right of the player window. The top portion tells you everything you need to know about your media. You can customize what information appears here to fit your reviewing needs. Click on ![Notes panel](https://sabsky.github.io/docs-test/docs/images/notes_panel.png) for the Notes panel, where you can add feedback on the Version that Shotgun will send back to the artist who submitted it. Click on ![Related Versions panel](https://sabsky.github.io/docs-test/docs/images/related_versions.png) for the Related Versions panel, which allows you to load and compare previous Versions submitted for the same Shot or Asset.
 
 ## Keyboard Shortcuts
 
