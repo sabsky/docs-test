@@ -48,7 +48,7 @@ In order to see updates in your Inbox, you need to first follow the thing you’
 ### Options for following
 
 * If you’re looking for something specific to follow, you can search for it with the global search and click the "Follow" button from the list of results.
-![Follow from search](https://sabsky.github.io/docs-test/images/01_follow_from_search.png)
+![Follow from search](../images/01_follow_from_search.png)
 * You can also follow an entity from a Detail, Thumbnail, or List view by right-clicking the entity and selecting “Follow Selected.”
 * Last, if you are assigned to a Task, you are automatically following that Task.
 
