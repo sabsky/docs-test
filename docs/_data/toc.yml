@@ -7,7 +7,8 @@
 - caption: shotgun
   children:
   - page: /shotgun/
-  - page: /shotgun/account-settings/
+    children:
+    - page: /shotgun/account-settings/
   - page: /shotgun/scheduling-tasks/
     children:
     - page: /shotgun/inbox/
