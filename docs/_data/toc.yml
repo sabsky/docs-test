@@ -7,8 +7,8 @@
 - caption: shotgun
   children:
   - page: /shotgun/
-  - text: python-api
-    url: https://developer.shotgunsoftware.com/python-api/
+  - text: account-settings
+    url: /shotgun/account-settings/
   - text: rest-api
     url: https://developer.shotgunsoftware.com/rest-api/
   - text: event-triggers
@@ -75,11 +75,3 @@
     url: https://status.shotgunsoftware.com/
   - text: new-support-request
     url: https://support.shotgunsoftware.com/hc/requests/new
-
-
-
-
-
-
-
-
