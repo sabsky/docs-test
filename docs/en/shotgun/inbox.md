@@ -48,7 +48,7 @@ In order to see updates in your Inbox, you need to first follow the thing you’
 ### Options for following
 
 * If you’re looking for something specific to follow, you can search for it with the global search and click the "Follow" button from the list of results.
-![Follow from search](../images/01_follow_from_search.png)
+![Follow from search](../../images/01_follow_from_search.png)
 * You can also follow an entity from a Detail, Thumbnail, or List view by right-clicking the entity and selecting “Follow Selected.”
 * Last, if you are assigned to a Task, you are automatically following that Task.
 
@@ -61,7 +61,7 @@ Once an entity is set up to create events, Admins can further refine what users 
 Similar to the Follow Settings a user can access via their Inbox, the Global Follow Settings page sets what those users see on their own Follow Settings page:
 
 <center>
-![Global follow settings](../images/02_global_follow_settings.png)
+![Global follow settings](../../images/02_global_follow_settings.png)
 </center>
 
 ### Updating email notifications
@@ -77,7 +77,7 @@ Screening Room is directly integrated into the Inbox. First, to receive updates 
 Now, whenever that person creates a new Version, you’ll receive an update in your Inbox that displays a playable thumbnail you can launch in the Overlay Player. From the Overlay Player, use the note and annotation tools to comment on the work.
 
 <center>
-![Overlay player](../images/04_overlay_player.png)
+![Overlay player](../../images/04_overlay_player.png)
 </center>
 
 When you’re done commenting, hit the escape key or click outside of the Overlay Player to return to the Inbox. Press the refresh button to remove the now viewed Version notification from your Inbox.

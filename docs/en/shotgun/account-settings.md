@@ -9,11 +9,11 @@ lang: en
 
 The "Account Settings" link is in the top right corner of every page, under your profile picture.
 
-<center>![Account Settings](../images/settings_01.png)</center>
+<center>![Account Settings](../../images/settings_01.png)</center>
 
 Selecting it takes you to a page where you can manage your Account, Email Notifications, and My Following Settings.
 
-<center>![Account Settings options](../images/settings_02.png)</center>
+<center>![Account Settings options](../../images/settings_02.png)</center>
 
 ## Change your profile picture
 
