@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Account Settings
-permalink: /shotgun/account_settings/
+permalink: /shotgun/account-settings/
 lang: en
 ---
 
