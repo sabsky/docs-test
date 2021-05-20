@@ -1,0 +1,114 @@
+{
+  "0": {
+    "id": "0",
+    "title": "Account Settings",
+    "content": "Account SettingsThe “Account Settings” link is in the top right corner of every page, under your profile picture.![Account Settings](https://sabsky.github.io/docs-test/images/settings_01.png)Selecting it takes you to a page where you can manage your Account, Email Notifications, and My Following Settings.![Account Settings options](https://sabsky.github.io/docs-test/images/settings_02.png)Change your profile pictureSelect “Change Profile Picture” or right-click anywhere in the user thumbnail area. You’ll have these options:  If no thumbnail has been uploaded, you can:          Upload Thumbnail        If a thumbnail already exists, you can:          Clear Thumbnail      Replace Thumbnail      View Image      Note that the thumbnail is saved immediately, even if you cancel out of the dialog.Change your account informationThe fields visible here are configurable by an Admin, but the common fields are the following:  First Name  Last Name  Email  Login  Home Page  Password (includes a double-confirm)Admins can choose what fields show up here by clicking on the gear menu in the top right corner of the dialog and selecting “Configure layout…”. Select “Apply” to save any layout changes.Change your email notification settingsShotgun can send email notifications to you based on written updates to Entities that have notes and replies (Notes, Tickets, Deliveries, Tasks, etc.). The personal settings here allow you to control when Shotgun sends email to you. Here are the current notification options:  Subscribe to Notes in your Inbox  Subscribe to Updates in your InboxThe rest of the options are legacy, as of Shotgun 5.0. You’ll only see options for notifications for the related Entities that an Admin has enabled for the site (so if you’re not using Tickets, you won’t see an option to subscribe to Tickets).See Site Preferences to learn more about customizing legacy email notifications or watch the video below.Please note: When Shotgun sends an email notification, it will BCC all people who should be getting the email and show “undisclosed recipients” instead of their email addresses. We do this because some studios want to show this information and some do not. If you’d like to display this information in the Note body, you can choose to display the “To”, “CC”, and “Tasks” fields in the email for Notes, which you can configure by going to Site Preferences &amp;gt; Email Layouts and User Defaults. Choose the email type to configure (Notes, Tickets, Deliveries, Tasks, Versions) and save your changes.Notifications and permissions: People will never receive notifications related to projects they’re not allowed to view, regardless of their personal notification settings. Disabled user accounts will also never receive email notifications.Change your following settingsYou can choose to follow items and people in Shotgun. The My Following Settings page will only show options for things you are already following. For example, at first you may only see options to follow Tasks.If you start to follow an Asset, you will see options for following Assets appear in your settings.",
+    "url": "/docs-test/shotgun/account-settings/",
+    "relUrl": "/shotgun/account-settings/"
+  },
+  "1": {
+    "id": "1",
+    "title": "动作菜单项",
+    "content": "动作菜单项框架开发人员可以基于实体自定义上下文菜单项。例如，从“版本”(Versions)页面中，可以选择多个版本，单击鼠标右键，然后选择将生成 PDF 报告的自定义菜单项。我们将其称为动作菜单项或 AMI。",
+    "url": "/docs-test/shotgun/action_menu_items/",
+    "relUrl": "/shotgun/action_menu_items/"
+  },
+  "2": {
+    "id": "2",
+    "title": "应用 API",
+    "content": "Toolkit 应用 APIToolkit 提供了一组可高度自定义的应用 UI，您可以混合搭配使用这些 UI 以创建工作室的工作流。下面列出了具有这些 UI 的应用的 API。",
+    "url": "/docs-test/toolkit/app_apis/",
+    "relUrl": "/toolkit/app_apis/"
+  },
+  "3": {
+    "id": "3",
+    "title": "贡献手册",
+    "content": "贡献手册为了尽量使我们的工作公开化，我们决定基于 Creative Commons 许可在一个公共库中构建开发人员文档。如果您有改进此文档的办法，欢迎您发出库的 Pull 请求并提供改进办法。要让我们接受 Pull 请求，您需跟我们签订下列贡献者协议之一：  个人贡献协议  公司贡献协议提交上面一种协议后，您可以按照自述文件中有关如何提交变更的说明进行操作。",
+    "url": "/docs-test/contribution/",
+    "relUrl": "/contribution/"
+  },
+  "4": {
+    "id": "4",
+    "title": "论坛",
+    "content": "RV 集成",
+    "url": "/docs-test/rv/forums/",
+    "relUrl": "/rv/forums/"
+  },
+  "5": {
+    "id": "5",
+    "title": "框架",
+    "content": "Toolkit 框架Toolkit 框架是可跨应用和插件使用的代码集合。Shotgun 实用程序和 QT 控件框架在应用开发中特别有用。Shotgun 实用程序框架（即 tk-framework-shotgunutils）是与 Shotgun 相关的辅助对象和实用程序集合，用于简化应用开发。此框架包含一个 Shotgun (MVC) 模型，通过它可轻松将 Shotgun 查询与标准 QT 视图以及管理设置的类、后台 Shotgun 处理和全局参数（如数据结构、状态和图标）相连。QT 控件框架（即 tk-framework-qtwidgets）是大量 Shotgun 相关的 QT 控件，用于轻松快速地构建美观的应用前端。此框架包含多个自定义 QT 视图、代理和控件。",
+    "url": "/docs-test/toolkit/frameworks/",
+    "relUrl": "/toolkit/frameworks/"
+  },
+  "6": {
+    "id": "6",
+    "title": "Getting Started",
+    "content": "Getting started with Shotgun.",
+    "url": "/docs-test/shotgun/getting-started/",
+    "relUrl": "/shotgun/getting-started/"
+  },
+  "7": {
+    "id": "7",
+    "title": "Inbox",
+    "content": "Inbox and followingThe Inbox allows you to see activity on all the things that are important to you and your work. Through the concept of following, you can receive notifications when new Notes, Versions, Publishes, or other important changes are made on things that are related to your work.  Whenever you receive a new message, it will automatically appear in the left pane and you’ll receive a notification.  Note: If you are using the latest release of Chrome or Safari, you can also receive a notification pop-up.Selecting the message will load its details in the right pane and mark the message as read.Using the InboxWhen looking at the top of the Inbox, you’ll see a handful of tools designed to be fast and allow you to digest the information you need to get your work done as quickly as possible. Hover on the image below to see explanations of the tools.    Pro tip: You can also mark multiple notes read or unread to help you get to Inbox Zero. Select the messages you would like to mark as read, right click, and select “Mark Read.”Replying to NotesWhen viewing a Note update, reply to the Note by clicking on the “Add a reply…” area at the bottom of the Note thread.What will appear in your InboxYou receive updates in your Inbox based on two things: what you’re following and your follow settings. To adjust your follow settings, click on the drop-down menu from your profile picture, in the upper right corner. Choose Account Settings and select “My Following Settings.” Once in your following settings, you can fine-tune the updates you receive. The left column provides options for when you receive updates on creation events (such as a new Note, Version, or Publish), while the right column is for selecting when an update is received whenever a field is updated (such as when a Status is changed on an Asset you’re following).  Note: If you are not following a particular entity type, the options for it will not appear in your settings page.FollowingIn order to see updates in your Inbox, you need to first follow the thing you’re interested in. To follow an update, click on the “Follow” button, located on the top right of any entity detail page. Once you’re following something, you’ll receive a notification in your Inbox whenever there is an update, such as a new Note, Version, or Publish.Options for following  If you’re looking for something specific to follow, you can search for it with the global search and click the “Follow” button from the list of results.  You can also follow an entity from a Detail, Thumbnail, or List view by right-clicking the entity and selecting “Follow Selected.”  Last, if you are assigned to a Task, you are automatically following that Task.Enable following on creation events and updatesAdmins can define which entity events, such as a new Version or a Publish, are followable on a site. You define which entities are followable by heading to the Site Preferences &amp;gt; Entities page and then selecting which creation events you’d like enabled on each entity.Once an entity is set up to create events, Admins can further refine what users can follow via the Global Follow Settings page under the Admin drop-down menu in the upper right.Similar to the Follow Settings a user can access via their Inbox, the Global Follow Settings page sets what those users see on their own Follow Settings page:![Global follow settings](https://sabsky.github.io/docs-test/images/02_global_follow_settings.png)Updating email notificationsYou can receive an email notification at the same time you receive an update in your Inbox. Access these settings via the “Email Notification Settings” from your Account Settings page.  Note: You can subscribe to Notes and Updates in your Inbox, but the rest of the options are legacy.Using the Inbox for reviewScreening Room is directly integrated into the Inbox. First, to receive updates about when a new Version is ready for review, follow the person who’s creating the Versions you want to know about. You can follow people from the People page by right-clicking and then selecting “Follow Selected.”Now, whenever that person creates a new Version, you’ll receive an update in your Inbox that displays a playable thumbnail you can launch in the Overlay Player. From the Overlay Player, use the note and annotation tools to comment on the work.![Overlay player](https://sabsky.github.io/docs-test/images/04_overlay_player.png)When you’re done commenting, hit the escape key or click outside of the Overlay Player to return to the Inbox. Press the refresh button to remove the now viewed Version notification from your Inbox.",
+    "url": "/docs-test/shotgun/inbox/",
+    "relUrl": "/shotgun/inbox/"
+  },
+  "8": {
+    "id": "8",
+    "title": "概述",
+    "content": "",
+    "url": "/docs-test/",
+    "relUrl": "/"
+  },
+  "9": {
+    "id": "9",
+    "title": "集成",
+    "content": "RV 集成除了 Shotgun 集成、RV 审片室和 Shotgun 审看等不同的 Shotgun 集成外，RV 还提供适用于 Nuke 和 Maya 的集成工具，但功能集有所不同。下面的前两个文档描述了 Nuke 和 Maya 集成的安装和工作流，后两个文档描述了不同的 Shotgun 集成，从而帮助您决定要使用哪种集成。",
+    "url": "/docs-test/rv/integrations/",
+    "relUrl": "/rv/integrations/"
+  },
+  "10": {
+    "id": "10",
+    "title": "Overlay Player",
+    "content": "Overlay PlayerShotgun provides multiple built-in review tools. The Overlay Player provides quick access to view uploaded media, provide feedback with notes and annotation tools, and see other related media.  The Overlay Player is accessible throughout Shotgun wherever you see a thumbnail with a play icon. Double clicking on the playable thumbnail will launch the Overlay Player, with Version information on the right in the details pane.Timeline ToolbarThe Timeline Toolbar contains everything you need to work with your media, including:  Play/pause controls  Frame counter  Annotation toolbar toggle  Zoom tool  Pan tool  Audio controls  Full screen toggle  Actions menu  Settings  Ability to review Versions in a cutAnnotation toolbarYou can use Shotgun’s annotation tools to mark up frames and provide clear feedback to your artists. Each tool has options such as brush size, stroke, fill, and opacity. There is also an eraser tool you can use to make corrections. When you draw on a frame, that frame—and any other frame you marked up—is automatically attached to your note and displayed via a thumbnail. When selected, thumbnails are displayed via the Lightbox Viewer.You can toggle the Annotation toolbar on and off quickly by pressing “a” on your keyboard.Zoom toolThe Zoom tool helps you zero in on your media, so you can ensure you’re delivering the highest quality work. Enable by clicking on the icon, or by pressing “z”. Zoom in one level at a time per click or zoom out one level at a time per shift+click. Or, click-hold-drag-left or click-hold-drag-right to quickly push in and out on your media quickly. To reset and fit media to your screen, press “r” or “f”.You can enable the Zoom tool quickly and regardless of what you have selected in the Timeline Toolbar via a keyboard shortcut. On OSX, press and hold Cmd and then drag left or right.  Pro tip: Check out other power user keyboard shortcuts by pressing “/” or “?”.Pan toolThe Pan tool gives you the control to move your media anywhere within the player window. This is particularly useful when you’re zoomed in really tight on a version. Just click+hold+drag to move the canvas.You can enable the Pan tool quickly and regardless of what you have selected in the Timeline Toolbar via a keyboard shortcut. On OSX, press and hold Option and then drag your cursor.Actions menuThe Actions menu provides quick access to opening your media in RV as well as an option to download the source file.SettingsThe Settings menu gives you control over default loading preferences, caching options, and a keyboard shortcut cheat sheet.Detail paneWhen you play a Version, you will see information about that Version appear in the Detail pane to the right of the player window. The top portion tells you everything you need to know about your media. You can customize what information appears here to fit your reviewing needs. Click on  for the Notes panel, where you can add feedback on the Version that Shotgun will send back to the artist who submitted it. Click on  for the Related Versions panel, which allows you to load and compare previous Versions submitted for the same Shot or Asset.Keyboard ShortcutsShotgun’s review tools have many built-in keyboard shortcuts to speed up your review. You can find the keyboard shortcut cheat sheet via the Settings menu or by pressing “/” or “?”.",
+    "url": "/docs-test/shotgun/overlay-player/",
+    "relUrl": "/shotgun/overlay-player/"
+  },
+  "11": {
+    "id": "11",
+    "title": "Review and Approval",
+    "content": "Learn about review and approval in Shotgun.",
+    "url": "/docs-test/shotgun/review-approval/",
+    "relUrl": "/shotgun/review-approval/"
+  },
+  "12": {
+    "id": "12",
+    "title": "概观",
+    "content": "RV借助强大的桌面审核功能，美工人员和主管能够更快地进行迭代。深入研究 RV 参考手册，以全面了解节点图表、自定义着色器、事件处理和网络连接。查看 RV-SDI 手册，了解我们如何将 NVIDIA SDI 视频设备作为演示模式设备进行实施。借助与 Maya、Nuke 甚至 Shotgun 本身的集成软件包，实现无缝工作流。",
+    "url": "/docs-test/rv/",
+    "relUrl": "/rv/"
+  },
+  "13": {
+    "id": "13",
+    "title": "Scheduling Tasks",
+    "content": "Learn about scheduling tasks in Shotgun.",
+    "url": "/docs-test/shotgun/scheduling-tasks/",
+    "relUrl": "/shotgun/scheduling-tasks/"
+  },
+  "14": {
+    "id": "14",
+    "title": "概观",
+    "content": "Shotgun管理制作时需要执行大量工作以使所有运作部分保持同步。使用我们的 Shotgun REST API 或 Python API 直接关联您的数据，使用事件触发器框架自动执行重复性任务，并使用动作菜单项直接从 Shotgun 的 Web 界面启动应用。建议您使用 Shotgun API 开发自己的服务、应用程序、模块和组件，以便在本服务上运行或与本服务一起运行，供您自己和授权用户使用。我们只要求您切勿披露（并且不允许您的授权用户披露）包含身份认证密钥的 API 信息，或者其他可能允许用户在没有登录的情况下访问本服务或其功能的方法，或者您自己使用 API 在没有登录的情况下访问或允许用户访问本服务或其功能的方法。",
+    "url": "/docs-test/shotgun/",
+    "relUrl": "/shotgun/"
+  },
+  "15": {
+    "id": "15",
+    "title": "概观",
+    "content": "ToolkitToolkit 是一个可扩展的平台，用于将美工人员应用程序和工作流工具与 Shotgun 相集成。所有集成均基于此 Toolkit 核心 API 平台构建而成。核心 API 可处理应用、插件和平台的基本方面以及文件系统组织和工具部署。",
+    "url": "/docs-test/toolkit/",
+    "relUrl": "/toolkit/"
+  }
+}

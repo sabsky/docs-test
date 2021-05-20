@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="Content-Language" content="ko">
+<link rel="alternate" hreflang="en" href=" /toolkit/frameworks/"/>
+<link rel="alternate" hreflang="ko" href="/ko/toolkit/frameworks/"/>
+<link rel="alternate" hreflang="ja" href="/ja/toolkit/frameworks/"/>
+<link rel="alternate" hreflang="zh_CN" href="/zh_CN/toolkit/frameworks/"/>
+
+
+  <title>프레임워크 - SG Developer</title>
+
+  <meta property="og:image:height" content="1257">
+<meta property="og:image:width" content="2400">
+<meta property="og:title" content="Shotgun Developer">
+<meta property="og:description" content="This site contains detailed technical reference for all of the ways you can interact with Shotgun programmatically, as well as tutorials, guides, and other educational resources for learning how to make the best use of all of Shotgun's integration points.">
+<meta property="og:url" content="https://developer.shotgunsoftware.com">
+<meta property="og:image" content="https://developer.shotgunsoftware.com/og-image.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="/developer-beta/site-metadata/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/developer-beta/site-metadata/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/developer-beta/site-metadata/favicon-16x16.png">
+<link rel="manifest" href="/developer-beta/site-metadata/site.webmanifest">
+<link rel="mask-icon" href="/developer-beta/site-metadata/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/docs-test/ko/assets/css/just-the-docs.css">
+  
+  <script type="text/javascript" src="/docs-test/assets/js/just-the-docs.js"></script>
+  <script type="text/javascript" src="/docs-test/assets/js/vendor/anchor.min.js"></script>
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54516992-1', 'auto');
+	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+	ga('set', 'anonymizeIp', false);
+    </script>
+    <!-- End Google Analytics -->
+    </head>
+
+
+
+<body>
+
+  <div class="page-wrap">
+
+    <div class="side-bar">
+      <a href="/docs-test" class="site-title fs-6 lh-tight">SG Developer</a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav>
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            Shotgun
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ko/shotgun/"
+            >
+                개요
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ko/shotgun/getting-started/"
+            >
+                Getting Started
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ko/shotgun/scheduling-tasks/"
+            >
+                Scheduling Tasks
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ko/shotgun/review-approval/"
+            >
+                Review and Approval
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            Toolkit
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ko/toolkit/"
+            >
+                개요
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://developer.shotgunsoftware.com/tk-core/">
+            Core API
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-selected-expanded"
+                
+
+                href="/docs-test/ko/toolkit/frameworks/"
+            >
+                프레임워크
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+                    
+                        
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://developer.shotgunsoftware.com/tk-framework-qtwidgets">
+            <span style='margin-left:20px'/>QT Widgets
+        </a>
+    </div>
+
+
+
+
+
+                    
+                        
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://developer.shotgunsoftware.com/tk-framework-shotgunutils">
+            <span style='margin-left:20px'/>Shotgun 유틸리티
+        </a>
+    </div>
+
+
+
+
+
+                    
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ko/toolkit/app_apis/"
+            >
+                앱 API
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://support.shotgunsoftware.com/entries/95440137">
+            앱 개발
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            RV
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ko/rv/"
+            >
+                개요
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://www.tweaksoftware.com/static/documentation/rv/current/html/rv_manual.html">
+            사용자 매뉴얼
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://www.tweaksoftware.com/static/documentation/rv/current/html/rv_reference.html">
+            기술 참조
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://www.tweaksoftware.com/static/documentation/rv/current/html/rvsdi_manual.html">
+            RV-SDI
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ko/rv/integrations/"
+            >
+                통합
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ko/rv/forums/"
+            >
+                포럼
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            Other
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ko/contribution/"
+            >
+                기여 가이드
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://support.shotgunsoftware.com/">
+            Shotgun 지원
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://status.shotgunsoftware.com/">
+            Service Status
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://support.shotgunsoftware.com/hc/requests/new">
+            New Support Request
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+    
+
+
+</nav>
+
+      </div>
+      <footer role="contentinfo" class="site-footer">
+
+            <p class="text-grey-dk-000 fs-2 fw-300" style="text-align: right">
+
+                <i class="fa fa-globe" style="font-size:14px; padding-right: 10px;"></i>
+                <select onChange="window.location.href = this.value">
+
+                    
+                        <option  value="/docs-test/toolkit/frameworks/">English</option>
+                    
+                        <option  selected  value="/docs-test/ko/toolkit/frameworks/">한국어</option>
+                    
+                        <option  value="/docs-test/ja/toolkit/frameworks/">日本語</option>
+                    
+                        <option  value="/docs-test/zh_CN/toolkit/frameworks/">简体中文</option>
+                    
+                </select>
+
+            </p>
+
+      </footer>
+    </div>
+
+
+
+    <div class="main-content-wrap">
+      <div class="page-header">
+        <div class="main-content">
+          
+          
+        </div>
+      </div>
+      <div class="main-content">
+
+        <div class="page-content">
+            <h1 id="툴킷-프레임워크">툴킷 프레임워크</h1>
+
+<p>툴킷 프레임워크는 앱 및 엔진 전반에서 사용할 수 있는 코드 모음입니다. 앱 개발에는 Shotgun 유틸리티 및 QT Widgets 프레임워크가 특히 유용합니다.</p>
+
+<p><strong>Shotgun 유틸리티 프레임워크</strong> 또는 <code class="highlighter-rouge">tk-framework-shotgunutils</code>는 앱 개발을 손쉽게 수행할 수 있도록 지원하는 Shotgun 관련 도우미 및 유틸리티의 모음입니다. 여기에는 Shotgun 쿼리를 표준 QT 뷰와 쉽게 연결할 수 있게 해 주는 Shotgun(MVC) 모델뿐 아니라 설정, 백그라운드 Shotgun 처리, 전역 항목(스키마, 상태 및 아이콘 등) 관리를 위한 클래스도 포함되어 있습니다.</p>
+
+<p><strong>QT Widgets 프레임워크</strong> 또는 <code class="highlighter-rouge">tk-framework-qtwidgets</code>는 앱에 보기 좋은 프런트엔드를 빠르고 쉽게 구축할 수 있게 지원하는 대규모 Shotgun 관련 QT 위젯 모음입니다. 여기에는 많은 커스텀 QT 뷰, 대리자 및 위젯이 포함되어 있습니다.</p>
+
+
+
+
+            
+
+            
+                <h2 style="margin-top:40px" class="text-delta">Child Topics</h2>
+                    
+                        
+
+
+
+
+    <div>
+        <a href="http://developer.shotgunsoftware.com/tk-framework-qtwidgets" class="in-page-nav-entry" target="_blank">
+            QT Widgets
+        </a>
+    </div>
+
+
+
+
+                    
+                        
+
+
+
+
+    <div>
+        <a href="http://developer.shotgunsoftware.com/tk-framework-shotgunutils" class="in-page-nav-entry" target="_blank">
+            Shotgun 유틸리티
+        </a>
+    </div>
+
+
+
+
+                    
+            
+        </div>
+      </div>
+
+      <div class="main-content" style="background-color: white; height: 50px;">
+      </div>
+
+      <div class="main-content" >
+        <hr style="margin: 0px">
+        <p class="text-grey-dk-000 fs-2 fw-300" style="text-align: right">
+          <i class="fa fa-github"></i> <a target="_blank" href="https://github.com/shotgunsoftware/developer-beta/blob/master/docs/ko/toolkit/frameworks.md" >Edit this document</a><br/>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    /**
+     * AnchorJS v3.2.0 options and selector
+     */
+    anchors.add();
+
+    // decorate all external links with a style and open in new tab
+    (function() {
+      var links = document.links;
+      for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+        // temp fix: make sure sphinx repos on developer site appear as external links from dev site.
+        if (links[i].hostname != window.location.hostname || links[i].pathname.startsWith('/tk-') || links[i].pathname.startsWith('/python-api') || links[i].pathname.startsWith('/rest-api') ) {
+          links[i].target = '_blank';
+          links[i].className += ' external-link-decoration';
+        }
+      }
+    })();
+
+  </script>
+
+</body>
+</html>

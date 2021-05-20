@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="Content-Language" content="ja">
+<link rel="alternate" hreflang="en" href=" /shotgun/inbox/"/>
+<link rel="alternate" hreflang="ko" href="/ko/shotgun/inbox/"/>
+<link rel="alternate" hreflang="ja" href="/ja/shotgun/inbox/"/>
+<link rel="alternate" hreflang="zh_CN" href="/zh_CN/shotgun/inbox/"/>
+
+
+  <title>Inbox - SG Developer</title>
+
+  <meta property="og:image:height" content="1257">
+<meta property="og:image:width" content="2400">
+<meta property="og:title" content="Shotgun Developer">
+<meta property="og:description" content="This site contains detailed technical reference for all of the ways you can interact with Shotgun programmatically, as well as tutorials, guides, and other educational resources for learning how to make the best use of all of Shotgun's integration points.">
+<meta property="og:url" content="https://developer.shotgunsoftware.com">
+<meta property="og:image" content="https://developer.shotgunsoftware.com/og-image.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="/developer-beta/site-metadata/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/developer-beta/site-metadata/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/developer-beta/site-metadata/favicon-16x16.png">
+<link rel="manifest" href="/developer-beta/site-metadata/site.webmanifest">
+<link rel="mask-icon" href="/developer-beta/site-metadata/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/docs-test/ja/assets/css/just-the-docs.css">
+  
+  <script type="text/javascript" src="/docs-test/assets/js/just-the-docs.js"></script>
+  <script type="text/javascript" src="/docs-test/assets/js/vendor/anchor.min.js"></script>
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54516992-1', 'auto');
+	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+	ga('set', 'anonymizeIp', false);
+    </script>
+    <!-- End Google Analytics -->
+    </head>
+
+
+
+<body>
+
+  <div class="page-wrap">
+
+    <div class="side-bar">
+      <a href="/docs-test" class="site-title fs-6 lh-tight">SG Developer</a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav>
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            Shotgun
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ja/shotgun/"
+            >
+                概要
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ja/shotgun/getting-started/"
+            >
+                Getting Started
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-expanded"
+                
+
+                href="/docs-test/ja/shotgun/scheduling-tasks/"
+            >
+                Scheduling Tasks
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+                    
+                        
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-selected"
+                
+
+                href="/docs-test/ja/shotgun/inbox/"
+            >
+                <span style='margin-left:20px'/>Inbox
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                    
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ja/shotgun/review-approval/"
+            >
+                Review and Approval
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            Toolkit
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ja/toolkit/"
+            >
+                概要
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://developer.shotgunsoftware.com/tk-core/">
+            Core API
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ja/toolkit/frameworks/"
+            >
+                フレームワーク
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ja/toolkit/app_apis/"
+            >
+                アプリケーション API
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://support.shotgunsoftware.com/entries/95440137">
+            アプリケーション開発
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            RV
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ja/rv/"
+            >
+                概要
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://www.tweaksoftware.com/static/documentation/rv/current/html/rv_manual.html">
+            ユーザ マニュアル
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://www.tweaksoftware.com/static/documentation/rv/current/html/rv_reference.html">
+            テクニカルリファレンス
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="http://www.tweaksoftware.com/static/documentation/rv/current/html/rvsdi_manual.html">
+            RV-SDI
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ja/rv/integrations/"
+            >
+                統合
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry-non-expanded"
+                
+
+                href="/docs-test/ja/rv/forums/"
+            >
+                フォーラム
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+                
+            
+
+            
+
+        
+
+    
+
+        <div class="nav-top-level" style="margin-top:15px; margin-bottom:5px">
+            Other
+        </div>
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+
+            <div>
+
+            <a
+                
+                    class="nav-entry"
+                
+
+                href="/docs-test/ja/contribution/"
+            >
+                貢献ガイド
+            </a>
+            </div>
+
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://support.shotgunsoftware.com/">
+            Shotgun サポート
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://status.shotgunsoftware.com/">
+            Service Status
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+
+            
+
+            
+            
+
+            
+
+            
+            
+
+
+            
+                
+
+
+
+
+
+    <div>
+
+        <a class="nav-entry" href="https://support.shotgunsoftware.com/hc/requests/new">
+            New Support Request
+        </a>
+    </div>
+
+
+
+
+
+            
+
+            
+
+        
+
+    
+
+
+</nav>
+
+      </div>
+      <footer role="contentinfo" class="site-footer">
+
+            <p class="text-grey-dk-000 fs-2 fw-300" style="text-align: right">
+
+                <i class="fa fa-globe" style="font-size:14px; padding-right: 10px;"></i>
+                <select onChange="window.location.href = this.value">
+
+                    
+                        <option  value="/docs-test/shotgun/inbox/">English</option>
+                    
+                        <option  value="/docs-test/ko/shotgun/inbox/">한국어</option>
+                    
+                        <option  selected  value="/docs-test/ja/shotgun/inbox/">日本語</option>
+                    
+                        <option  value="/docs-test/zh_CN/shotgun/inbox/">简体中文</option>
+                    
+                </select>
+
+            </p>
+
+      </footer>
+    </div>
+
+
+
+    <div class="main-content-wrap">
+      <div class="page-header">
+        <div class="main-content">
+          
+          
+        </div>
+      </div>
+      <div class="main-content">
+
+        <div class="page-content">
+            <h2 id="inbox-and-following">Inbox and following</h2>
+
+<p>The Inbox allows you to see activity on all the things that are important to you and your work. Through the concept of following, you can receive notifications when new Notes, Versions, Publishes, or other important changes are made on things that are related to your work.</p>
+
+<center>
+  <iframe src="//www.youtube.com/embed/syZYXnWOwls" width="560" height="315" frameborder="0"></iframe>
+</center>
+
+<p>Whenever you receive a new message, it will automatically appear in the left pane and you’ll receive a notification.</p>
+
+<blockquote>
+  <p><strong>Note:</strong> If you are using the latest release of Chrome or Safari, you can also receive a notification pop-up.</p>
+</blockquote>
+
+<p>Selecting the message will load its details in the right pane and mark the message as read.</p>
+
+<h2 id="using-the-inbox">Using the Inbox</h2>
+
+<p>When looking at the top of the Inbox, you’ll see a handful of tools designed to be fast and allow you to digest the information you need to get your work done as quickly as possible. Hover on the image below to see explanations of the tools.</p>
+
+<center>
+  <img class="alwaysThinglink" style="max-width:100%" src="//cdn.thinglink.me/api/image/886405161650487297/1024/10/scaletowidth#tl-886405161650487297;1043138249'" />
+
+<script async="" charset="utf-8" src="//cdn.thinglink.me/jse/embed.js"></script>
+</center>
+
+<blockquote>
+  <p><strong>Pro tip:</strong> You can also mark multiple notes read or unread to help you get to Inbox Zero. Select the messages you would like to mark as read, right click, and select “Mark Read.”</p>
+</blockquote>
+
+<h3 id="replying-to-notes">Replying to Notes</h3>
+
+<p>When viewing a Note update, reply to the Note by clicking on the “Add a reply…” area at the bottom of the Note thread.</p>
+
+<h3 id="what-will-appear-in-your-inbox">What will appear in your Inbox</h3>
+
+<p>You receive updates in your Inbox based on two things: what you’re following and your follow settings. To adjust your follow settings, click on the drop-down menu from your profile picture, in the upper right corner. Choose Account Settings and select “My Following Settings.” Once in your following settings, you can fine-tune the updates you receive. The left column provides options for when you receive updates on creation events (such as a new Note, Version, or Publish), while the right column is for selecting when an update is received whenever a field is updated (such as when a Status is changed on an Asset you’re following).</p>
+
+<blockquote>
+  <p><strong>Note:</strong> If you are not following a particular entity type, the options for it will not appear in your settings page.</p>
+</blockquote>
+
+<h2 id="following">Following</h2>
+
+<p>In order to see updates in your Inbox, you need to first follow the thing you’re interested in. To follow an update, click on the “Follow” button, located on the top right of any entity detail page. Once you’re following something, you’ll receive a notification in your Inbox whenever there is an update, such as a new Note, Version, or Publish.</p>
+
+<h3 id="options-for-following">Options for following</h3>
+
+<ul>
+  <li>If you’re looking for something specific to follow, you can search for it with the global search and click the “Follow” button from the list of results.
+<img src="../images/01_follow_from_search.png" alt="Follow from search" /></li>
+  <li>You can also follow an entity from a Detail, Thumbnail, or List view by right-clicking the entity and selecting “Follow Selected.”</li>
+  <li>Last, if you are assigned to a Task, you are automatically following that Task.</li>
+</ul>
+
+<h3 id="enable-following-on-creation-events-and-updates">Enable following on creation events and updates</h3>
+
+<p>Admins can define which entity events, such as a new Version or a Publish, are followable on a site. You define which entities are followable by heading to the Site Preferences &gt; Entities page and then selecting which creation events you’d like enabled on each entity.</p>
+
+<p>Once an entity is set up to create events, Admins can further refine what users can follow via the Global Follow Settings page under the Admin drop-down menu in the upper right.</p>
+
+<p>Similar to the Follow Settings a user can access via their Inbox, the Global Follow Settings page sets what those users see on their own Follow Settings page:</p>
+
+<center>
+![Global follow settings](https://sabsky.github.io/docs-test/images/02_global_follow_settings.png)
+</center>
+
+<h3 id="updating-email-notifications">Updating email notifications</h3>
+
+<p>You can receive an email notification at the same time you receive an update in your Inbox. Access these settings via the “Email Notification Settings” from your Account Settings page.</p>
+
+<blockquote>
+  <p><strong>Note:</strong> You can subscribe to Notes and Updates in your Inbox, but the rest of the options are legacy.</p>
+</blockquote>
+
+<h2 id="using-the-inbox-for-review">Using the Inbox for review</h2>
+
+<p>Screening Room is directly integrated into the Inbox. First, to receive updates about when a new Version is ready for review, follow the person who’s creating the Versions you want to know about. You can follow people from the People page by right-clicking and then selecting “Follow Selected.”</p>
+
+<p>Now, whenever that person creates a new Version, you’ll receive an update in your Inbox that displays a playable thumbnail you can launch in the Overlay Player. From the Overlay Player, use the note and annotation tools to comment on the work.</p>
+
+<center>
+![Overlay player](https://sabsky.github.io/docs-test/images/04_overlay_player.png)
+</center>
+
+<p>When you’re done commenting, hit the escape key or click outside of the Overlay Player to return to the Inbox. Press the refresh button to remove the now viewed Version notification from your Inbox.</p>
+
+
+
+            
+
+            
+        </div>
+      </div>
+
+      <div class="main-content" style="background-color: white; height: 50px;">
+      </div>
+
+      <div class="main-content" >
+        <hr style="margin: 0px">
+        <p class="text-grey-dk-000 fs-2 fw-300" style="text-align: right">
+          <i class="fa fa-github"></i> <a target="_blank" href="https://github.com/shotgunsoftware/developer-beta/blob/master/docs/en/shotgun/inbox.md" >Edit this document</a><br/>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    /**
+     * AnchorJS v3.2.0 options and selector
+     */
+    anchors.add();
+
+    // decorate all external links with a style and open in new tab
+    (function() {
+      var links = document.links;
+      for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+        // temp fix: make sure sphinx repos on developer site appear as external links from dev site.
+        if (links[i].hostname != window.location.hostname || links[i].pathname.startsWith('/tk-') || links[i].pathname.startsWith('/python-api') || links[i].pathname.startsWith('/rest-api') ) {
+          links[i].target = '_blank';
+          links[i].className += ' external-link-decoration';
+        }
+      }
+    })();
+
+  </script>
+
+</body>
+</html>
